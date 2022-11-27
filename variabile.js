@@ -19,6 +19,7 @@ let afiseazaMesaj = function(){
 
 }
 
+//obiect complex cu functii
 let car = {
     make: 'VW',
     type: 'Passat',
@@ -41,5 +42,17 @@ let car = {
         }else{
             this.isTurnedOn=false;
         }
+    },
+    fly: function(){
+        alert('Fly');
     }
+}
+
+let doCoolStuff = function(){
+    if (document.getElementById('cool').className === 'cool'){
+        document.getElementById('cool').className ='cool red';
+    }else {
+        document.getElementById('cool').className ='cool';
+    }
+    
 }
