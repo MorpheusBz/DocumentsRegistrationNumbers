@@ -1,0 +1,37 @@
+{
+  "name": "numereinregistrare",
+  "version": "0.0.1",
+  "description": "Registru inregistrari documente",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorpheusBz/DocumentsRegistrationNumbers.git"
+  },
+  "keywords": [
+    "Numere",
+    "inregistrare"
+  ],
+  "author": "MM Sweet Graphics & Software SRL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MorpheusBz/DocumentsRegistrationNumbers/issues"
+  },
+  "homepage": "https://github.com/MorpheusBz/DocumentsRegistrationNumbers#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "electron": "^22.0.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
